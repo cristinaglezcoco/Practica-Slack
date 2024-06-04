@@ -1,0 +1,128 @@
+/* Hacer responsive */
+
+header{
+    width: 100%;
+    height: calc(100% - 100px);
+    background-color: #400d40;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+.intro-info{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.intro-info-title{
+    color: white;
+    font-size: 40px;
+}
+
+.intro-info-title-2{
+    color:#ecb22e;
+}
+
+.intro-info >p{
+    color: white;
+}
+
+.intro-signup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.intro-signup-mail{
+    border: 1px solid white;
+    background-color: white;
+    color:#400d40;
+    padding: 18px;
+    border-radius: 5px;
+    font-weight:bold;
+    text-align: center;
+}
+
+.intro-signup-google{
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    color: white;
+    border-radius: 5px;
+    font-weight:bold;
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.intro-signup-google span{
+    font-size: 15px;
+    width: calc(100% - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.intro-signup-google img{
+    width: 40px;
+    height: auto;
+    background-color: white;
+}
+
+/* Tamaño video */
+
+.intro-video{
+    padding: 10px;
+    width: 50%;
+    height: 500px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.intro-video >video{
+    width: 700px;
+    height: 700px;
+    transform: translateY(-80px);
+}
+
+.intro-test{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+}
+
+@media (max-width: 1023px) {
+    .intro-test{
+        display:none;
+    }
+}
+
+@media (max-width: 767px) {
+    header{
+        flex-direction: column;
+        padding: 30px 50px;
+
+        .intro-info{
+            width: 100%;
+            height: auto;
+        }
+
+        .intro-video{
+            width: 100%;
+            height: 500px;
+        }
+
+    }
+}

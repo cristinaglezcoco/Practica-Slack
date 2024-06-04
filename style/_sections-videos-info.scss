@@ -1,0 +1,214 @@
+.container-task{
+    width: 100%;
+    background-color: #f4ede4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+
+    .container__task-video{
+        width: 100%;
+        max-width: 600px;
+        height: 400px;
+
+        video{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .container__task-info{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        padding: 0px 20px;
+
+        a{
+            color:#4285f4;
+            width: 100%;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px){
+    .container-task{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 50px 0px;
+        
+        .container__task-info{
+            width: 60%;
+            padding-top: 40px;
+            align-self: center;
+        }
+
+        .container__task-video{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 576px){
+    .container-task{
+        padding: 0px 0px;
+
+        .container__task-info{
+            padding-top: 0px;
+            width: 100%;
+            padding: 0px 20px;
+            gap: 20px;
+        }
+    }  
+}
+
+.container-select{
+    width: 100%;
+    background-color: #f4ede4;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+
+    .container__select-video{
+        width: 100%;
+        max-width: 600px;
+        height: 400px;
+
+        video{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .container__select-info{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        padding: 0px 20px;
+
+        a{
+            color:#4285f4;
+            width: 100%;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px){
+    .container-select{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 50px 0px;
+        
+        .container__select-info{
+            width: 60%;
+            padding-top: 40px;
+            align-self: center;
+        }
+
+        .container__select-video{
+            width: 100%;
+            align-self: flex-end;
+        }
+    }
+}
+
+@media screen and (max-width: 576px){
+    .container-select{
+        padding: 0px 0px;
+
+        .container__select-info{
+            padding-top: 0px;
+            width: 100%;
+            padding: 0px 20px;
+            gap: 20px;
+        }
+    }  
+}
+
+
+.container-team{
+    width: 100%;
+    background-color: #f4ede4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+
+    .container__team-video{
+        width: 100%;
+        max-width: 600px;
+        height: 400px;
+
+        video{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .container__team-info{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+        padding: 0px 20px;
+
+        a{
+            color:#4285f4;
+            width: 100%;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 992px){
+    .container-team{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 50px 0px;
+        
+        .container__team-info{
+            width: 60%;
+            padding-top: 40px;
+            align-self: center;
+        }
+
+        .container__team-video{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 576px){
+    .container-team{
+        padding: 0px 0px;
+
+        .container__team-info{
+            padding-top: 0px;
+            width: 100%;
+            padding: 0px 20px;
+            gap: 20px;
+        }
+    }  
+}
